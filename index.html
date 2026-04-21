@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qadam | iQanat Hackathon MVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">Qadam</div>
+        <nav>
+          <a href="#problem">Problem</a>
+          <a href="#solution">Solution</a>
+          <a href="#features">Features</a>
+          <a href="#journey">How it works</a>
+          <a href="#impact">Impact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <span class="badge">Built for rural students in Kazakhstan</span>
+            <h1>Every dream starts with one <span class="accent">Qadam</span>.</h1>
+            <p class="lead">
+              Qadam is a lightweight mentorship and opportunity navigator that helps rural
+              students find scholarships, prepare for exams, and stay motivated — even with
+              limited internet.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#demo">Try demo</a>
+              <a class="btn btn-ghost" href="#solution">See solution</a>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <h3>Hackathon MVP Focus</h3>
+            <ul>
+              <li>Fast mobile-first interface</li>
+              <li>Offline-friendly learning tasks</li>
+              <li>Simple mentor Q&A simulation</li>
+              <li>Scholarship opportunity tracker</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- About the problem -->
+      <section id="problem" class="section">
+        <div class="container two-col">
+          <div>
+            <h2>The problem</h2>
+            <p>
+              Many talented students in villages have ambition, but not equal access to guidance.
+              They often miss deadlines, don't know where to start, and study alone without
+              feedback.
+            </p>
+            <p>
+              The gap is not talent — it is navigation, motivation, and support in the right
+              moment.
+            </p>
+          </div>
+          <div class="stat-grid">
+            <article class="stat">
+              <h3>Access gap</h3>
+              <p>Students need mentorship and clear action plans, not just information.</p>
+            </article>
+            <article class="stat">
+              <h3>Time pressure</h3>
+              <p>Application windows are short and easy to miss without reminders.</p>
+            </article>
+            <article class="stat">
+              <h3>Low confidence</h3>
+              <p>Students stop applying when they don't see quick progress.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About the solution -->
+      <section id="solution" class="section section-soft">
+        <div class="container">
+          <h2>The solution: Qadam</h2>
+          <p class="lead small">
+            Qadam turns confusing educational pathways into a daily, step-by-step journey. It is
+            designed to work on low-bandwidth devices and keeps students moving forward with small,
+            achievable tasks.
+          </p>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="section">
+        <div class="container">
+          <h2>Core MVP features</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Opportunity Feed</h3>
+              <p>
+                Curated scholarships, olympiads, and camps with clear eligibility and deadline tags.
+              </p>
+            </article>
+            <article class="card">
+              <h3>7-Day Study Sprint</h3>
+              <p>
+                Bite-sized daily tasks for exam preparation with progress tracking and streaks.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Mentor-style Assistant</h3>
+              <p>
+                Quick question prompts with pre-written guidance to simulate coaching support.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Deadline Alerts</h3>
+              <p>
+                In-app reminders so students never miss an application due date again.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- User journey / how it works -->
+      <section id="journey" class="section section-soft">
+        <div class="container">
+          <h2>How it works</h2>
+          <ol class="timeline">
+            <li><strong>Step 1:</strong> Student chooses goal (ENT, scholarship, olympiad).</li>
+            <li><strong>Step 2:</strong> Qadam generates a weekly action plan.</li>
+            <li><strong>Step 3:</strong> Student completes daily tasks and tracks streak.</li>
+            <li><strong>Step 4:</strong> Platform surfaces matching opportunities and deadlines.</li>
+            <li><strong>Step 5:</strong> Student submits stronger applications with confidence.</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Social impact -->
+      <section id="impact" class="section">
+        <div class="container two-col">
+          <div>
+            <h2>Social impact</h2>
+            <p>
+              Qadam helps convert hidden potential into real outcomes by giving rural students the
+              same strategic support urban students often receive.
+            </p>
+            <ul class="impact-list">
+              <li>Higher application completion rates</li>
+              <li>Better exam consistency through habits</li>
+              <li>More first-generation students entering top programs</li>
+            </ul>
+          </div>
+          <div class="impact-panel">
+            <h3>Projected first pilot (3 months)</h3>
+            <p><strong>150+</strong> active students from rural schools</p>
+            <p><strong>70%</strong> weekly task completion target</p>
+            <p><strong>40+</strong> submitted scholarship applications</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Demo CTA -->
+      <section id="demo" class="section section-cta">
+        <div class="container cta-box">
+          <h2>Ready to see the MVP in action?</h2>
+          <p>Pick a sample student profile and simulate their first 7-day learning sprint.</p>
+          <button id="demoBtn" class="btn btn-primary">Run interactive demo</button>
+          <div id="demoOutput" class="demo-output" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Qadam — One step today, one future tomorrow.</p>
+        <p>iQanat Hackathon MVP • Built with vanilla HTML/CSS/JS</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
